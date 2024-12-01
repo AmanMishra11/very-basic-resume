@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #f4f4f4;
+            border-right: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+        }
+        .sidebar h3 {
+            margin-top: 0;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .project a {
+            display: block;
+            font-weight: bold;
+            padding: 5px 0;
+            color: #333;
+            text-decoration: none;
+            background-color: burlywood;
+        }
+        .project a:hover {
+            background-color: #ddd;
+        }
+        .project iframe {
+            border: 1px solid #ccc;
+            width: 100%;
+            height: 100px;
+            margin-top: 5px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .project iframe::-webkit-scrollbar {
+            display: none;
+        }
+        .project iframe {
+            scrollbar-width: none;
+        }
+        .content {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        iframe[name="displayFrame"] {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+        h3 {
+            text-align: center;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Projects</h3>
+        <div class="project">
+            <a href="favs_table.html" target="displayFrame">Project 1: Favorite Things</a>
+            <iframe src="favs_table.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="tribute.html" target="displayFrame">Project 2: Tribute Page</a>
+            <iframe src="tribute.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="catpic.html" target="displayFrame">Project 3: Cat Pictures</a>
+            <iframe src="catpic.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="cafe menu/cafe-menu.html" target="displayFrame">Project 4: Cafe Menu</a>
+            <iframe src="cafe menu/cafe-menu.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="gallerycafe.html" target="displayFrame">Project 5: Gallery Cafe</a>
+            <iframe src="gallerycafe.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="frames.html" target="displayFrame">Project 6: Frames</a>
+            <iframe src="frames.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="personal_detail.html" target="displayFrame">Project 7: Personal Details Form</a>
+            <iframe src="personal_detail.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="basic_form.html" target="displayFrame">Project 8: Basic Form</a>
+            <iframe src="basic_form.html"></iframe>
+        </div>
+        <div class="project">
+            <a href="index.html" target="displayFrame">Project 9: Resume</a>
+            <iframe src="index.html"></iframe>
+        </div>
+    </div>
+    <div class="content">
+        <iframe name="displayFrame" src=""></iframe>
+    </div>
+</body>
+</html>
