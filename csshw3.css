@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px solid rgba(0, 0, 0,0.7);
+}
+.data{
+    width: 30%;
+}
+h3{
+    color: rgba(0,0,0,0.8);
+}
+p{
+    color: rgba(0,0,0,0.6); 
+}
+img {
+    margin: 10px;
+    width: 1000px;
+    height: 200px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+}
+h2 {
+    text-align: center;
+    font-weight: 100%;
+    text-decoration: double;
+    color:black;
+}
