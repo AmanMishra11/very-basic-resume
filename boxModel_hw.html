@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            padding: 10px 100px;
+            margin: 10px;
+        }
+
+        .box {
+            border: 2px solid red;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            border: 2px solid red;
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        button,
+        a {
+            border: 2px solid red;
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>I'm a box</h1>
+    </div>
+    <div class="box">
+        <p>
+            I'm also a box with some text in it.. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Quod molestiae cumque dolores provident! Quo repellat odio rerum,
+            ipsa maiores adipisci veritatis beatae, non ipsam minus dignissimos amet cupiditate
+            nesciunt quas?
+        </p>
+    </div>
+    <div class="box">
+        <ul>
+            <li>this list is a box</li>
+            <li>and all the list items in it are boxes</li>
+        </ul>
+    </div>
+    <div class="box">
+        <p>
+            even <button>buttons</button> and <a href="#">links</a> are boxes.
+        </p>
+    </div>
+</body>
+
+</html>
